@@ -98,13 +98,20 @@ a:hover{
     font-weight: bold;
     text-align: center;
     margin-bottom: 1em;
+    text-decoration: underline;
+    margin-top: 2%;
 }
 .menu__box{
     width: 100%;
+    align-items: center;
+    text-align: center;
 }
 
 .nombre__comida{
+    color: #000000;
     text-align: center;
+    margin-bottom: 3%;
+    font-weight: bold;
 }
 
 .entradas, .carnes, .comida__mar, .pasta{
@@ -118,12 +125,16 @@ a:hover{
     height: auto;
     box-shadow: 5px 5px 5px #102817;
     display: flex;
-    justify-content: center;
+    margin-left: 22%;
 
 }
 
 .entradas img :hover{
     box-shadow: 5px 5px 5px black;
+}
+
+.descripcion__producto{
+    color: #000000;
 }
 
 .precio {

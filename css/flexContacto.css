@@ -1,0 +1,38 @@
+.tudo{
+    background-color: #55833d;
+}
+
+.back__button{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 0.5% 2% 1% 0.5%;
+    border-radius: 0% 30% 50% 60%;
+    background-color: #b2f7bb;
+    color: #000000;
+}
+
+.semi__cirulo{
+    position: relative;
+    top: 91px;
+    width: 100%;   /* Ancho del semicírculo */
+    height: 90%;  /* Mitad de la altura para hacer un semicírculo */
+    background-color: #8cc342; /* Color del semicírculo */
+    border-radius: 300px 300px 0 0; /* Redondear solo las esquinas superiores */
+}
+
+.tittle__contacto, .ubicacion, .numero, .correo{
+    display: flex;
+    justify-content: center;
+}
+
+.tittle__contacto{
+    margin-top: 18%;
+    font-size: 2.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.ubicacion{
+    margin-top: 3%;
+    font-size: 1.4em;
+}

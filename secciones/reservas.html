@@ -1,15 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/flexbox.css">
-    <title>Reservas</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/flexbox.css">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>RESERVAS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
 <body>
-    <a class="back__button" href="../index.html">&#8592;</a>
+        <!--Sección del menu-->
+         <section class="menu">
+            <!--<header class="menu__header">
+                    <h1 class="menu__title">OASIS VERDE</h1>
+                </header>-->
+                <nav class="menu__nav">
+                    <ul class="menu__list">
+                        <li class="menu__list__item"><a href="reservas.html">RESERVAS</a></li>
+                        <li class="menu__list__item"><a href="menu.html">MENU</a></li>
+                        <li class="menu__list__item" id="menu__tittle">OASIS VERDE</li>
+                        <li class="menu__list__item"><a href="sobreNosotros.html">SOBRE NOSOTROS</a></li>
+                        <li class="menu__list__item"><a href="contacto.html">CONTACTOS</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <div class="arreglo">
+            <div class="mensaje__reserv">   
+             <!--Sección imagen de fondo -->
+             </div>
+             <section class="fom">
+             <section class="formulario">
+                <h3 class="inicio_reserva">Reservas De Oasis Verde</h3>
+                <br>
+                <br>
+                <h3 class="let_formulario">Numéro telefonico: 3160504058</h3>
+                <br>
+                <br>
+                <div class="res_mesa">
+                <h3 class="let_formulario2">Reservar Mesa</h3>
+                <br>
+                <br>
+                <input class="cont_formulario" type="date" name="calendario" id="calendario">
+                <input class="cont_formulario" type="time" name="hora" id="hora">
+                <input class="cont_formulario" type="number" name="mesas" id="mesas" placeholder="Número de mesas aqui">
+                </div>
+                <div class="dat_con">        
+                <h3 class="let_formulario2">Datos De contacto</h3>   
+                <br>
+                <br>
+                <input class="cont_formulario" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre aqui">
+                <input class="cont_formulario" type="email" name="correo" id="correo" placeholder="Ingrese su correo aqui">
+                <input class="cont_formulario" type="text" name="telefono" id="telefono" placeholder="Telefono">
+                
+            </div>
+                <input class="mens_formulario" type="text" name="añadir" id="añadir" placeholder="¿Que deseas añadir a tu reserva?">
+                <a class="reservaa" href="./Gracias.html" target="_blank"><input class="boton" type="submit" value="Hacer Reserva"></a>
+             </section>
+             </section>
 
-    
-</body>
+    </body>
 </html>

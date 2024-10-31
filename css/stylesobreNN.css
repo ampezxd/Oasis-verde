@@ -1,0 +1,134 @@
+/* General */
+body {
+    font-family: "Lora", serif;
+    color: #ffffff;
+    background-color: #55833d; /* Fondo verde oscuro */
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #b2f7bb; /* Verde claro */
+}
+
+/* Botón de regreso */
+.back__button {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 0.5% 2% 1% 0.5%;
+    border-radius: 10px;
+    background-color: #406530; /* Verde oscuro */
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+.back__button:hover {
+    background-color: #b2f7bb; /* Verde claro */
+}
+
+/* Menú */
+.menu__nav {
+    background-color: #406530;
+    padding: 15px 0;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.menu_list_item a {
+    color: #ffffff;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+#menu_tittle a {
+    font-size: 2em;
+    color: #b2f7bb;
+    font-weight: bold;
+}
+
+/* Sección "Sobre Nosotros" */
+.tudo {
+    background-color: #55833d;
+    padding: 2% 5%;
+    text-align: center;
+}
+
+.mens__sobreNosotros1, .mens__sobreNosotros2 {
+    margin: 2% 0;
+    color: #ffffff;
+}
+
+.mens__sobreNosotros1 h2, .mens__sobreNosotros2 h2 {
+    font-size: 2em;
+    margin-bottom: 1%;
+}
+
+.mens__sobreNosotros1 p, .mens__sobreNosotros2 p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #ebebeb;
+}
+
+/* Imagen principal */
+img {
+    max-width: 80%;
+    margin: 2% auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Botón "Nuestro Menú" */
+.boton__menu {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #b2f7bb; /* Verde claro */
+    color: #406530;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.boton__menu:hover {
+    background-color: #ffffff;
+    color: #406530;
+}
+
+/* Sección Contacto */
+.contacto {
+    background-color: #406530;
+    padding: 2% 5%;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+
+.contacto h2 {
+    font-size: 1.8em;
+    color: #b2f7bb;
+}
+
+.contacto p {
+    font-size: 1.1em;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.contacto a {
+    color: #b2f7bb;
+}
+
+.contacto a:hover {
+    color: #ffffff;
+}

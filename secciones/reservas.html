@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/flexbox.css">
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&
+    family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <title>RESERVAS</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
@@ -18,11 +20,11 @@
                 </header>-->
                 <nav class="menu__nav">
                     <ul class="menu__list">
-                        <li class="menu__list__item"><a href="reservas.html">RESERVAS</a></li>
+                        <li class="menu__list__item"><a href="./reservas.html">RESERVAS</a></li>
                         <li class="menu__list__item"><a href="menu.html">MENU</a></li>
-                        <li class="menu__list__item" id="menu__tittle">OASIS VERDE</li>
+                        <li class="menu__list__item" id="menu__tittle"><a href="../index.html">OASIS VERDE</a></li>
                         <li class="menu__list__item"><a href="sobreNosotros.html">SOBRE NOSOTROS</a></li>
-                        <li class="menu__list__item"><a href="contacto.html">CONTACTOS</a></li>
+                        <li class="menu__list__item"><a href="contactos.html">CONTACTOS</a></li>
                     </ul>
                 </nav>
             </section>
@@ -42,9 +44,10 @@
                 <h3 class="let_formulario2">Reservar Mesa</h3>
                 <br>
                 <br>
+                <form action="https://formspree.io/f/mvgokzlv" method="POST">
                 <input class="cont_formulario" type="date" name="calendario" id="calendario">
                 <input class="cont_formulario" type="time" name="hora" id="hora">
-                <input class="cont_formulario" type="number" name="mesas" id="mesas" placeholder="Número de mesas aqui">
+                <input class="cont_formulario" type="number" name="mesas" id="mesas" placeholder="Número de personas aqui">
                 </div>
                 <div class="dat_con">        
                 <h3 class="let_formulario2">Datos De contacto</h3>   
@@ -57,7 +60,8 @@
             </div>
                 <input class="mens_formulario" type="text" name="añadir" id="añadir" placeholder="¿Que deseas añadir a tu reserva?">
                 <a class="reservaa" href="./Gracias.html" target="_blank"><input class="boton" type="submit" value="Hacer Reserva"></a>
-             </section>
+            </form> 
+            </section>
              </section>
 
     </body>

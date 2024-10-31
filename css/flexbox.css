@@ -21,6 +21,11 @@ a:hover{
     color: #000000;
 }
 
+#imagendepresentacion{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 /*Sección index*/
 /*menu*/
 
@@ -45,6 +50,10 @@ a:hover{
     display: flex;
     margin: 2% 4% 2% 4% ;
     font-size: 1.3em;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 /*Resto de la pagina*/
@@ -92,6 +101,13 @@ a:hover{
 
 /*Sección menu*/
 
+#imagen__menu{
+    display: block;
+    margin: auto;
+    width: 50%; 
+
+}
+
 .menu__tittle{
     width: 100%;
     text-align: center;
@@ -128,14 +144,6 @@ a:hover{
 
 }
 
-.entradas img, .carnes img, .comida__mar img, .pasta img{
-    width: 200px;
-    height: auto;
-    box-shadow: 5px 5px 5px #102817;
-    display: flex;
-    margin-left: 22%;
-
-}
 
 .entradas img :hover{
     box-shadow: 5px 5px 5px black;
@@ -287,8 +295,3 @@ a:hover{
     flex-direction: column;
     background-repeat:no-repeat ;
 }
-
-
-
-
-
